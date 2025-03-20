@@ -1,0 +1,16 @@
+controller_server:
+  ros__parameters:
+    controller_frequency: 10.0
+    min_x_velocity_threshold: 0.1
+    min_y_velocity_threshold: 0.1
+    min_theta_velocity_threshold: 0.1
+
+    TrajectoryPlannerROS:
+      max_vel_x: 0.5
+      min_vel_x: 0.01
+      max_vel_theta: 1.5
+      min_in_place_vel_theta: 0.01
+      acc_lim_theta: 1.5
+      acc_lim_x: 0.5
+      acc_lim_y: 0.5
+      holonomic_robot: false
